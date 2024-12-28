@@ -1,76 +1,63 @@
-import project1 from "../assets/projects/project-1.webp";
+import portfolio from "../assets/projects/portfolio.jpg";
+import bus from "../assets/projects/buses.jpg";
 import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Front-end Developer with 3+ years of experience, specializing in crafting intuitive and responsive web interfaces. I have expertise in React, Next.js, HTML, CSS, and JavaScript, along with experience in PHP and WordPress. I’m passionate about building seamless user experiences and delivering high-performance, scalable web applications that drive business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate and detail-oriented Front-end Developer with over 3 years of experience in building responsive, user-centric web applications. Specializing in React, Next.js, HTML, CSS, JavaScript, PHP, and WordPress, I focus on creating seamless and visually appealing user interfaces that deliver exceptional experiences.
+
+My journey in web development began with a fascination for design and functionality, and it has evolved into a career where I continuously push the boundaries of what's possible on the web. I thrive on solving complex problems, collaborating with cross-functional teams, and staying up-to-date with the latest technologies. When I'm not coding, I enjoy exploring new frameworks, contributing to open-source projects, and enhancing my skills through continuous learning.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2021 - Present",
+    role: "UI Developer",
+    company: "Media.net",
+    description: `As a UI Developer, I convert design mockups into fully functional, interactive web pages using HTML, CSS, JavaScript, React, PHP, and WordPress. I develop dynamic, feature-rich pages in React and contribute to building engaging landing pages using HTML, CSS, and JavaScript for various marketing campaigns. In my role at an advertising company, I create optimized ad blocks to enhance ad placements and improve site monetization. Additionally, I leverage my WordPress expertise to build highly customizable websites and tailor premium themes to meet specific client requirements.`,
+    technologies: ["React.js", "Javascript", "Wordpress", "Php", "HTML", "CSS", "SCSS"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Frontend Developer",
+    company: "Tekno Point",
+    description: `As a Frontend Developer, I was responsible for converting design mockups into responsive, interactive web pages using HTML, CSS, and JavaScript. My role involved building a config-driven UI, where most of the interface was dynamically rendered based on API data. I frequently worked on developing and validating complex forms, ensuring data integrity before sending it to the API. Additionally, I integrated payment gateways to enable secure online transactions, ensuring a smooth and reliable user experience. I also worked extensively with Adobe Experience Manager (AEM) CMS to manage and deliver the content for the websites.`,
+    technologies: ["HTML", "CSS", "Javascript", "AEM"],
+  },
+  {
+    year: "2020 - 2021",
+    role: "Python Developer (Internship)",
+    company: "Dezignolics Web & Software Company",
+    description: `During my internship as a Python Developer, I was responsible for teaching Python programming to Bachelor of Engineering students. My role included preparing and delivering lessons on core Python concepts, assisting students with coding exercises, and evaluating their understanding through tests and assessments. I helped students develop their coding skills by providing guidance and feedback on their work, ensuring they grasped key programming principles effectively.`,
+    technologies: ["Python", "Django", "HTML", "CSS", "Javascript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Portfolio",
+    image: portfolio,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and achievements, with a focus on responsive design for seamless experiences across desktop and mobile devices. Deployed and hosted the site on Vercel, ensuring fast load times and automated deployment from GitHub.",
+    technologies: ["React.js", "Tailwind", "HTML"],
   },
   {
-    title: "Task Management App",
+    title: "Todo Web App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["React.js", "Redux", "Javascript", "HTML", "CSS"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Bus Management System Android & IOS App UI",
+    image: bus,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed and developed the UI for a Bus Management System mobile app using Flutter, ensuring a seamless experience across Android and iOS devices. Implemented responsive layouts and intuitive navigation to optimize the app's interface for different screen sizes and enhance the user experience on both platforms.",
+    technologies: ["Flutter"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Mumbai, Maharashtra ",
+  phoneNo: "+91 7021677235 ",
+  email: "csahani60@gmail.com",
 };

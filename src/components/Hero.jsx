@@ -39,7 +39,7 @@ const Hero = () => {
                     <motion.p  variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{HERO_CONTENT}</motion.p>
                     <motion.a
                     variants={childVariants}
-                     href="/resume.pdf"
+                     href="/chandrashekhar_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
