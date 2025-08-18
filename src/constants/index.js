@@ -1,10 +1,10 @@
-import portfolio from "../assets/projects/portfolio.jpg";
+// import portfolio from "../assets/projects/portfolio.jpg";
 import bus from "../assets/projects/buses.jpg";
 import project2 from "../assets/projects/project-2.webp";
 
-export const HERO_CONTENT = `I am a Front-end Developer with 3+ years of experience, specializing in crafting intuitive and responsive web interfaces. I have expertise in React, Next.js, HTML, CSS, and JavaScript, along with experience in PHP and WordPress. I’m passionate about building seamless user experiences and delivering high-performance, scalable web applications that drive business growth.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences. I’ve worked across a broad spectrum of technologies—starting with the fundamentals of HTML, CSS, and JavaScript, and progressing into modern frameworks like React.js and Vue.js. My experience also extends into PHP and WordPress, allowing me to build and customize both dynamic applications and content-driven platforms. I’m always exploring new tools and technologies to stay ahead in this ever-evolving digital landscape.`;
 
-export const ABOUT_TEXT = `I am a passionate and detail-oriented Front-end Developer with over 3 years of experience in building responsive, user-centric web applications. Specializing in React, Next.js, HTML, CSS, JavaScript, PHP, and WordPress, I focus on creating seamless and visually appealing user interfaces that deliver exceptional experiences.
+export const ABOUT_TEXT = `I am a passionate and detail-oriented Front-end Developer with over 3 years of experience in building responsive, user-centric web applications. Specializing in React.js, HTML, CSS, JavaScript, PHP, and WordPress, I focus on creating seamless and visually appealing user interfaces that deliver exceptional experiences.
 
 My journey in web development began with a fascination for design and functionality, and it has evolved into a career where I continuously push the boundaries of what's possible on the web. I thrive on solving complex problems, collaborating with cross-functional teams, and staying up-to-date with the latest technologies. When I'm not coding, I enjoy exploring new frameworks, contributing to open-source projects, and enhancing my skills through continuous learning.`;
 
@@ -13,8 +13,8 @@ export const EXPERIENCES = [
     year: "2021 - Present",
     role: "UI Developer",
     company: "Media.net",
-    description: `As a UI Developer, I convert design mockups into fully functional, interactive web pages using HTML, CSS, JavaScript, React, PHP, and WordPress. I develop dynamic, feature-rich pages in React and contribute to building engaging landing pages using HTML, CSS, and JavaScript for various marketing campaigns. In my role at an advertising company, I create optimized ad blocks to enhance ad placements and improve site monetization. Additionally, I leverage my WordPress expertise to build highly customizable websites and tailor premium themes to meet specific client requirements.`,
-    technologies: ["React.js", "Javascript", "Wordpress", "Php", "HTML", "CSS", "SCSS"],
+    description: `As a UI Developer, I have developed high-performance web applications using React, Tailwind CSS, Axios, and React Hook Form, streamlining the development process and accelerating feature releases by 50%. Built scalable WordPress themes for Forbes Advisor (25M+ monthly users), developing custom shortcodes, advanced custom fields, and reusable UI components (accordions, modals, forms) that improved content flexibility, user engagement, and ad-friendly page performance. Improved site performance and SEO, consistently achieving Core Web Vitals scores in the high 90s. Leveraged deep expertise in WordPress to develop highly customizable websites, tailoring premium themes to client needs and ensuring design flexibility. Collaborated effectively with cross-functional teams (designers, back-end developers) to integrate front-end features seamlessly and deliver high-quality user experiences.`,
+    technologies: ["React.js", "Javascript", "Wordpress", "Php", "HTML", "CSS", "SCSS", "Tailwind CSS"],
   },
   {
     year: "2020 - 2021",
@@ -33,13 +33,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Portfolio",
-    image: portfolio,
-    description:
-      "Built a personal portfolio website using React and Tailwind CSS to showcase projects, skills, and achievements, with a focus on responsive design for seamless experiences across desktop and mobile devices. Deployed and hosted the site on Vercel, ensuring fast load times and automated deployment from GitHub.",
-    technologies: ["React.js", "Tailwind", "HTML"],
-  },
   {
     title: "Todo Web App",
     image: project2,
